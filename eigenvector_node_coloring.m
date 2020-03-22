@@ -1,8 +1,6 @@
 function params = eigenvector_node_coloring(A, params, K)
 % Perform node coloring based on normalized laplacian embedding
 % using the K-th eigenvector
-%
-% Tomasz Malisiewicz (tomasz@csail.mit.edu)
 
 if ~exist('K','var')
   K = 2;
